@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>My Portofolio | Jon Warnek Gultom</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="hamburger" id="hamburger">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </div>
+
+    <!-- Sidebar -->
+    <nav class="sidebar" id="sidebar">
+      <div class="sidebar-profile-image hidden">
+        <div class="profile-bg">
+          <div class="profile-image">
+            <img src="/assets/img/IMG_0138.jpg" alt="img" />
+          </div>
+        </div>
+      </div>
+      <div class="name hidden">
+        <h1>Jon Gultom</h1>
+      </div>
+      <div class="sidebar-socialMedia hidden">
+        <li class="instagram" onclick="toIg()">
+          <a href="#"></a><i class="fab fa-instagram"></i>
+        </li>
+        <li class="facebook" onclick="toFb()">
+          <a href="#"></a><i class="fab fa-facebook"></i>
+        </li>
+        <li class="twitter" onclick="toTw()">
+          <a href="#"></a><i class="fab fa-twitter"></i>
+        </li>
+        <li class="Linkedin" onclick="toLn()">
+          <a href="#"></a><i class="fab fa-linkedin"></i>
+        </li>
+      </div>
+      <div class="sidebar-menu hidden">
+        <li>
+          <a href="#home"><i class="fa-solid fa-house"></i> Home</a>
+        </li>
+        <li>
+          <a href="#about"
+            ><i class="fa-sharp fa-solid fa-address-card"></i> About</a
+          >
+        </li>
+        <li>
+          <a href="#education"
+            ><i class="fa-solid fa-graduation-cap"></i> Education</a
+          >
+        </li>
+        <li>
+          <a href="#skills"
+            ><i class="fa-sharp fa-solid fa-pen-ruler"></i> Skills</a
+          >
+        </li>
+        <li>
+          <a href="#gallery"><i class="fa-solid fa-photo-film"></i> Gallery</a>
+        </li>
+        <li>
+          <a href="#project"><i class="fa-solid fa-list-ul"></i> Project</a>
+        </li>
+        <li>
+          <a href="#contact"
+            ><i class="fa-solid fa-address-book"></i> Contact</a
+          >
+        </li>
+      </div>
+    </nav>
+
+    <main class="content">
+      <!-- Home -->
+      <section class="home" id="home">
+        <div class="middle-text hidden">
+          <h1>Hello! Have a great day</h1>
+          <p>
+            My name is Jon, I love and enjoy web development as a beginner and
+            still learning
+          </p>
+        </div>
+      </section>
+
+      <!-- About -->
+
+      <section class="about" id="about">
+        <div class="about-me hidden">
+          <h1 class="about-title">ABOUT ME</h1>
+          <p class="about-desc">
+            Seorang fresh graduate jurusan Sistem Informasi, memiliki minat di
+            bidang Teknologi Informasi seperti desain website. Saya juga dikenal
+            sebagai orang yang selalu berpikir kritis serta berpikir analitis
+            sehingga mudah beradaptasi di lingkungan yang beragam. Saat ini saya
+            mencari peluang kerja yang memberikan peluang untuk semakin
+            berkembang
+          </p>
+        </div>
+        <div class="education" id="education">
+          <h1 class="education-title hidden">EDUCATIONS</h1>
+          <div class="education-list">
+            <card class="education-card hidden">
+              <div class="education-img">
+                <img src="assets/img/edu (5).png" alt="" />
+                <p class="education-year">2006-2012</p>
+                <h4 class="education-desc">SD Negeri 176340 Batunadua</h4>
+              </div>
+            </card>
+            <card class="education-card hidden">
+              <div class="education-img">
+                <img src="assets/img/edu (1).png" alt="" />
+                <p class="education-year">2012-2015</p>
+                <h4 class="education-desc">SMP N 2 Pangaribuan</h4>
+              </div>
+            </card>
+            <card class="education-card hidden">
+              <div class="education-img">
+                <img src="assets/img/edu (2).png" alt="" />
+                <p class="education-year">2012-2015</p>
+                <h4 class="education-desc">SMA N 1 Pangaribuan</h4>
+              </div>
+            </card>
+            <card class="education-card hidden">
+              <div class="education-img">
+                <img src="assets/img/edu (3).png" alt="" />
+                <p class="education-year">2012-2015</p>
+                <h4 class="education-desc">
+                  S1 Sistem Informasi - Universitas Mikroskil Medan
+                </h4>
+              </div>
+            </card>
+          </div>
+        </div>
+      </section>
+
+      <!-- <skills> -->
+
+      <section class="skills hidden" id="skills">
+        <h1 class="skills-title">SKILLS</h1>
+        <div class="skill-bars">
+          <div class="bar">
+            <div class="info">
+              <span>HTML</span>
+            </div>
+            <div class="progress-line html">
+              <span></span>
+            </div>
+          </div>
+          <div class="bar">
+            <div class="info">
+              <span>CSS</span>
+            </div>
+            <div class="progress-line css">
+              <span></span>
+            </div>
+          </div>
+          <div class="bar">
+            <div class="info">
+              <span>JavaScript</span>
+            </div>
+            <div class="progress-line javaScript">
+              <span></span>
+            </div>
+          </div>
+          <div class="bar">
+            <div class="info">
+              <span>Bootstrap</span>
+            </div>
+            <div class="progress-line bootstrap">
+              <span></span>
+            </div>
+          </div>
+          <div class="bar">
+            <div class="info">
+              <span>Microsoft Office (Word, Excel, Powerpoint)</span>
+            </div>
+            <div class="progress-line office">
+              <span></span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Gallery -->
+
+      <section class="gallery" id="gallery">
+        <div class="carousel-container hidden">
+          <h1 class="gallery-title">GALLERY</h1>
+          <!--Add Image-->
+          <div class="carousel">
+            <div class="item main-carousel">
+              <img src="assets/img/carousel/carousel1.jpg" alt="" />
+            </div>
+            <div class="item">
+              <img src="assets/img/carousel/carousel2.JPG" alt="" />
+            </div>
+            <div class="item">
+              <img src="assets/img/carousel/carousel3.JPG" alt="" />
+            </div>
+            <div class="item">
+              <img src="assets/img/carousel/carousel4.JPG" alt="" />
+            </div>
+            <div class="item">
+              <img src="assets/img/carousel/carousel5.JPG" alt="" />
+            </div>
+            <div class="item">
+              <img src="assets/img/carousel/carousel6.JPG" alt="" />
+            </div>
+            <div class="item">
+              <img src="assets/img/carousel/carousel7.JPG" alt="" />
+            </div>
+            <div class="item">
+              <img src="assets/img/carousel/carousel8.JPG" alt="" />
+            </div>
+          </div>
+          <!--Add Add Preview and Next buttons-->
+          <div class="navigation">
+            <div class="prev nav-btn"><</div>
+            <div class="next nav-btn">></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Project -->
+
+      <section class="project hidden" id="project">
+        <h1 class="projects-title">PROJECTS</h1>
+        <div class="container-box">
+          <card class="box" draggable="false">
+            <div class="image">
+              <img src="assets/img/Project/project0.png" alt="" />
+            </div>
+            <p>Build a Blackjack Game with JavaScript</p>
+            <button class="btn-project" onclick="toProject0()">View</button>
+          </card>
+          <card class="box" draggable="false">
+            <div class="image">
+              <img src="assets/img/Project/project1.png" alt="" />
+            </div>
+            <p>CRUD Dengan HTML, CSS, & JavaScript</p>
+            <button class="btn-project" onclick="toProject1()">View</button>
+          </card>
+          <card class="box" draggable="false">
+            <div class="image">
+              <img src="assets/img/Project/project2.png" alt="" />
+            </div>
+            <p>Aplikasi CRUD ReactJs dengan MongoDB</p>
+            <button class="btn-project" onclick="toProject2()">View</button>
+          </card>
+          <card class="box" draggable="false">
+            <div class="image">
+              <img src="assets/img/Project/project7.png" alt="" />
+            </div>
+            <p>Todolist yang sangat sederhana dengan JavaScript</p>
+            <button class="btn-project" onclick="toProject3()">View</button>
+          </card>
+          <card class="box" draggable="false">
+            <div class="image">
+              <img src="assets/img/Project/project4.png" alt="" />
+            </div>
+            <p>Membuat Navbar Responsive dengan Html, CSS, & JavaScript</p>
+            <button class="btn-project" onclick="toProject4()">View</button>
+          </card>
+          <card class="box" draggable="false">
+            <div class="image">
+              <img src="assets/img/Project/project5.png" alt="" />
+            </div>
+            <p>Company Profile dengan HTML, CSS, & JavaScript</p>
+            <button class="btn-project" onclick="toProject5()">View</button>
+          </card>
+          <card class="box" draggable="false">
+            <div class="image">
+              <img src="assets/img/Project/project6.png" alt="" />
+            </div>
+            <p>Calculator dengan HTML, CSS, & JavaScript</p>
+            <button class="btn-project" onclick="toProject6()">view</button>
+          </card>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section class="contact" id="contact">
+        <h1 class="contact-title">CONTACT</h1>
+        <div class="contact-container">
+          <i class="fa-brands fa-whatsapp" onclick="toWa()"></i>
+          <p>or</p>
+          <i class="fa-regular fa-envelope" onclick="toEmail()"></i>
+        </div>
+      </section>
+
+      <footer>
+        <p>Dibuat oleh Jon Warnek Gultom - 2023</p>
+      </footer>
+    </main>
+  </body>
+  <script defer src="index.js"></script>
+</html>
