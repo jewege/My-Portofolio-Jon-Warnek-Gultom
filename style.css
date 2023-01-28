@@ -99,6 +99,7 @@ body {
 .sidebar-socialMedia li:hover {
       background-color: #BF9E80;
       color: #042623;
+      transition: all .3s;
 }
 
 .sidebar-socialMedia i {
@@ -109,6 +110,7 @@ body {
       transition: .2s ease-in-out;
       font-size: 24px;
       cursor: pointer;
+      transition: all .3s;
 }
 
 @media screen and (max-width:835px) {
@@ -637,9 +639,10 @@ body {
 
 .btn-project {
       opacity: 0.9;
-      padding: 3px 8px;
+      padding: 5px 10px;
       background-color: #042623;
       border: none;
+      border-radius: 0px 5px;
       color: #F2CAA7;
       cursor: pointer;
 }
@@ -831,7 +834,6 @@ footer {
             margin-top: 2rem;
             background: #194039;
             padding: .5rem;
-            border-radius: 5px;
             color: #F2CAA7;
       }
 
@@ -878,7 +880,6 @@ footer {
       .gallery-title {
             background: #F2CAA7;
             padding: .5rem;
-            border-radius: 5px;
             color: #194039;
       }
 
