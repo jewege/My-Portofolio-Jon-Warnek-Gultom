@@ -561,7 +561,7 @@ body {
 .project {
       background-image: url(assets/img/Leave-10s-1362px.svg);
       background-size: contain;
-      height: 80vh;
+      max-height: 80vh;
       display: flex;
       justify-content: center;
       flex-direction: column;
@@ -654,7 +654,7 @@ body {
 .contact {
       background-image: url(assets/img/Leave-10s-1290px.svg);
       background-size: contain;
-      height: 50vh;
+      max-height: 50vh;
       display: flex;
       justify-content: center;
       flex-direction: column;
@@ -839,6 +839,7 @@ footer {
 
       .skill-bars {
             width: 98%;
+            height: 80%;
       }
 
       .skill-bars .bar .progress-line {
