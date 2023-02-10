@@ -277,7 +277,7 @@ body {
       background: #8C856D;
       border-radius: 5px;
       width: 90%;
-      height: 30vh;
+      height: 250px;
       display: flex;
       text-align: center;
       justify-content: center;
@@ -310,7 +310,7 @@ body {
 .skills {
       background-image: url(assets/img/Leave-10s-1362px.svg);
       background-size: contain;
-      height: 100vh;
+      height: 600px;
       display: flex;
       justify-content: center;
       flex-direction: column;
@@ -468,7 +468,7 @@ body {
 .gallery {
       background-image: url(assets/img/Leave-10s-1290px.svg);
       background-size: contain;
-      height: 100vh;
+      height: 700px;
       display: flex;
       justify-content: center;
       flex-direction: column;
@@ -483,7 +483,6 @@ body {
 
 .carousel-container {
       width: 80%;
-      height: 60vh;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -545,7 +544,7 @@ body {
 .carousel img {
       margin: 0 auto;
       width: 100%;
-      height: 70vh;
+      height: 500px;
       border: 8px solid #F2CAA7;
       object-fit: scale-down;
 }
@@ -561,7 +560,7 @@ body {
 .project {
       background-image: url(assets/img/Leave-10s-1362px.svg);
       background-size: contain;
-      height: 80vh;
+      height: 500px;
       display: flex;
       justify-content: center;
       flex-direction: column;
@@ -655,7 +654,7 @@ body {
 .contact {
       background-image: url(assets/img/Leave-10s-1290px.svg);
       background-size: contain;
-      height: 50vh;
+      height: 300px;
       display: flex;
       justify-content: center;
       flex-direction: column;
@@ -669,7 +668,7 @@ body {
 
 .contact-container {
       width: 50%;
-      height: 20vh;
+      height: 100px;
       background-color: #F2CAA7;
       display: flex;
       justify-content: space-around;
@@ -689,7 +688,7 @@ footer {
       background-size: cover;
       background-repeat: repeat-x;
       width: 100%;
-      height: 10vh;
+      height: 100px;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -804,7 +803,7 @@ footer {
       .education-card {
             width: 100%;
             display: flex;
-            height: 20vh;
+            height: 100px;
       }
 
       .education-img {
@@ -827,12 +826,12 @@ footer {
             width: 50%;
       }
 
+
       .skills {
-            height: 80vh;
+            height: 700px;
       }
 
       .skills-title {
-            margin-top: 2rem;
             background: #194039;
             padding: .5rem;
             color: #F2CAA7;
@@ -840,7 +839,7 @@ footer {
 
       .skill-bars {
             width: 98%;
-            min-height: 70vh;
+            height: 500px;
       }
 
       .skill-bars .bar .progress-line {
@@ -852,7 +851,7 @@ footer {
       }
 
       .project {
-            min-height: 60vh;
+            height: 600px;
       }
 
       .projects-title {
@@ -872,11 +871,11 @@ footer {
 
       .carousel img {
             width: 100%;
-            height: 30vh;
+            height: 250px;
       }
 
       .gallery {
-            height: 60vh;
+            height: 500px;
       }
 
       .gallery-title {
@@ -893,7 +892,6 @@ footer {
 
       .contact-container {
             width: 80%;
-            height: 10vh;
       }
 }
 
