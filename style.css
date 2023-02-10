@@ -595,6 +595,7 @@ body {
       display: flex;
       gap: 12px;
       width: 95%;
+      min-height: 380px;
       background: #042623;
       border-radius: 12px;
       padding: 30px;
