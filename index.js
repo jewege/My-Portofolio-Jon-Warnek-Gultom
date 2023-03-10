@@ -88,13 +88,11 @@ function toProject2() {
   open("https://youtu.be/kK6J3loAGYs");
 }
 function toProject3() {
-  open(
-    "https://github.com/jewege/Todolist-Yang-sangat-sederhana-dengan-Javascript"
-  );
+  open("https://github.com/jewege/Todolist-Yang-sangat-sederhana-dengan-Javascript");
 }
 function toProject4() {
   open(
-    "https://github.com/jewege/Membuat-Navbar-responsive-dengan-menggunakan-HTML-CSS-JavaScript"
+    "https://github.com/jewege/Membuat-Navbar-responsive-dengan-menggunakan-HTML-CSS-JavaScript",
   );
 }
 function toProject5() {
@@ -102,4 +100,13 @@ function toProject5() {
 }
 function toProject6() {
   open("https://github.com/jewege/Calculator-dengan-HTML-CSS-JavaScript");
+}
+function toProject8() {
+  open("https://github.com/jewege/my-vue-todoApp");
+}
+function toProject9() {
+  open("https://github.com/jewege/vue-weather-app");
+}
+function toProject10() {
+  open("https://github.com/jewege/ecommerce_catalog");
 }
